@@ -28,7 +28,9 @@ If libuv cannot be found automatically when build, you need pkg-config(USE_PKGCO
 ## Usage
 
 Put the program under the folder and run it without any configuration.
+
 Or you can give it a commandline parameter as the path.
+
 *NOTICE* You may need root privilege for network in Linux and Mac OS.
 
 ## License
@@ -36,6 +38,8 @@ Or you can give it a commandline parameter as the path.
 GPLv3
 
 
+uvftp
+=======================
 这是一款基于libuv的用于局域网分享的轻量FTP服务器。极易使用😉。
 
 ## 优势
@@ -49,13 +53,17 @@ GPLv3
 ## 如何安装
 
 可以直接在[Releases](https://github.com/neverwin/uvftp/releases)下载。
+
 你也可以手动编译，需要gcc(在Windows下为mingw或cygwin)环境和libuv库，然后直接make就行。
+
 如果编译时无法找到libuv，你需要启用pkg-config(USE_PKGCONFIG=1)或者指明libuv的位置(LIBUV=path)。
+
 *注意* 在Linux和Mac OS下运行服务可能需要root权限。
 
 ## 使用方式
 
 无需配置，之间放入想分享的文件夹目录中，运行即可。
+
 特殊情况下，你也可以加入一个命令行参数，以另外指定一个路径。
 
 ## 协议
