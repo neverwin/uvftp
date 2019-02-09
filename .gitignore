@@ -1,0 +1,13 @@
+# build files
+build/
+*.o
+*.obj
+uvftp.exe
+uvftp
+
+# codeblocks
+*.layout
+*.depend
+
+# private
+private/
