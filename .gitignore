@@ -6,6 +6,7 @@ uvftp.exe
 uvftp
 
 # codeblocks
+*.cbp
 *.layout
 *.depend
 
